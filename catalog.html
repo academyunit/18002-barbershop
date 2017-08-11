@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Барбершоп</title>
+</head>
+<body>
+    <header class="page-header">
+        <div class="center-container">
+            <div class="logo"><img src="#" alt=""></div>
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__list__item"><a class="navigation__list__item__link" href="#">ИНФОРМАЦИЯ</a></li>
+                    <li class="navigation__list__item"><a class="navigation__list__item__link" href="#">НОВОСТИ</a></li>
+                    <li class="navigation__list__item"><a class="navigation__list__item__link" href="#">ПРАЙС-ЛИСТ</a></li>
+                    <li class="navigation__list__item"><a class="navigation__list__item__link" href="#">МАГАЗИН</a></li>
+                    <li class="navigation__list__item"><a class="navigation__list__item__link" href="#">КОНТАКТЫ</a></li>
+                </ul>
+            </nav>
+            <section class="profile">
+                <ul class="profile__links">
+                    <li class="profile__links__item"><a class="profile__links__item__link" href="#">ВХОД</a></li>
+                </ul>
+            </section>
+        </div>
+    </header>
+    <main class="page-content center-container">
+        <h1 class="page-content__logo">СРЕДСТВА ДЛЯ УХОДА</h1>
+        <article class="breadcrumbs">
+            <ul class="breadcrumbs__list">
+                <li class="breadcrumbs__list__item"><a class="breadcrumbs__list__item__link" href="#">ГЛАВНАЯ </a></li>
+                <li class="breadcrumbs__list__item"><a class="breadcrumbs__list__item__link" href="#">МАГАЗИН</a></li>
+                <li class="breadcrumbs__list__item breadcrumbs__list__item--active"><a class="breadcrumbs__list__item__link" href="#">СРЕДСТВА ДЛЯ УХОДА</a></li>
+            </ul>
+        </article>
+        <section class="catalog">
+            <aside class="catalog__filters">
+                <section class="catalog__filters__vendors">
+                    <header class="catalog__filters__vendors__header">ПРОИЗВОДИТЕЛИ:</header>
+                    <ul class="catalog__filters__vendors__list">
+                        <li class="catalog__filters__vendors__list__item">
+                            <label for="catalog__filters__vendors__list__item_1">Baxter of California</label>
+                            <input id="catalog__filters__vendors__list__item_1" class="catalog__filters__vendors__list__item__input" type="checkbox" name="filter_vendor" value="1" checked>
+                        </li>
+                        <li class="catalog__filters__vendors__list__item">
+                            <label for="catalog__filters__vendors__list__item_2">Mr Natty</label>
+                            <input id="catalog__filters__vendors__list__item_2" class="catalog__filters__vendors__list__item__input" type="checkbox" name="filter_vendor" value="2">
+                        </li>
+                        <li class="catalog__filters__vendors__list__item">
+                            <label for="catalog__filters__vendors__list__item_3">Suavecito</label>
+                            <input id="catalog__filters__vendors__list__item_3" class="catalog__filters__vendors__list__item__input" type="checkbox" name="filter_vendor" value="3" checked>
+                        </li>
+                        <li class="catalog__filters__vendors__list__item">
+                            <label for="catalog__filters__vendors__list__item_4">Malin+Goetz</label>
+                            <input id="catalog__filters__vendors__list__item_4" class="catalog__filters__vendors__list__item__input" type="checkbox" name="filter_vendor" value="4">
+                        </li>
+                        <li class="catalog__filters__vendors__list__item">
+                            <label for="catalog__filters__vendors__list__item_5">Murray’s</label>
+                            <input id="catalog__filters__vendors__list__item_5" class="catalog__filters__vendors__list__item__input" type="checkbox" name="filter_vendor" value="5">
+                        </li>
+                        <li class="catalog__filters__vendors__list__item">
+                            <label for="catalog__filters__vendors__list__item_6">American Crew</label>
+                            <input id="catalog__filters__vendors__list__item_6" class="catalog__filters__vendors__list__item__input" type="checkbox" name="filter_vendor" value="6" checked>
+                        </li>
+                    </ul>
+                </section>
+                <section class="catalog__filters__groups">
+                    <header class="catalog__filters__groups__header">ГРУППЫ ТОВАРОВ:</header>
+                    <ul class="catalog__filters__groups__list">
+                        <li class="catalog__filters__groups__list__item">
+                            <label for="catalog__filters__groups__list__item_1">Бритвенные принадлежности</label>
+                            <input id="catalog__filters__groups__list__item_1" class="catalog__filters__groups__list__item_input" type="radio" name="filter_catalog" value="1">
+                        </li>
+                        <li class="catalog__filters__groups__list__item">
+                            <label for="catalog__filters__groups__list__item_2">Средства для ухода</label>
+                            <input id="catalog__filters__groups__list__item_2" class="catalog__filters__groups__list__item_input" type="radio" name="filter_catalog" value="2" checked>
+                        </li>
+                        <li class="catalog__filters__groups__list__item">
+                            <label for="catalog__filters__groups__list__item_3">Аксессуары</label>
+                            <input id="catalog__filters__groups__list__item_3" class="catalog__filters__groups__list__item_input" type="radio" name="filter_catalog" value="3">
+                        </li>
+                    </ul>
+                </section>
+                <div class="catalog__filters__controls">
+                    <button class="catalog__filters__controls__search">Показать</button>
+                </div>
+            </aside>
+            <section class="catalog__products">
+                <article class="catalog-product">
+                    <figure class="catalog-product__announce">
+                        <img src="#" alt="">
+                        <figcaption class="catalog-product__announce__text">Набор для путешествий «Baxter of California»</figcaption>
+                    </figure>
+                    <section class="catalog-product__controls">
+                        <span class="catalog-product__controls__price">2 900 ₽</span>
+                        <a href="#" class="catalog-product__controls__buy-button">КУПИТЬ</a>
+                    </section>
+                </article>
+                <article class="catalog-product">
+                    <figure class="catalog-product__announce">
+                        <img src="#" alt="">
+                        <figcaption class="catalog-product__announce__text">Random text</figcaption>
+                    </figure>
+                    <section class="catalog-product__controls">
+                        <span class="catalog-product__controls__price">750 ₽</span>
+                        <a href="#" class="catalog-product__controls__buy-button">КУПИТЬ</a>
+                    </section>
+                </article>
+                <article class="catalog-product">
+                    <figure class="catalog-product__announce">
+                        <img src="#" alt="">
+                        <figcaption class="catalog-product__announce__text">Random text</figcaption>
+                    </figure>
+                    <section class="catalog-product__controls">
+                        <span class="catalog-product__controls__price">290 ₽</span>
+                        <a href="#" class="catalog-product__controls__buy-button">КУПИТЬ</a>
+                    </section>
+                </article>
+                <article class="catalog-product">
+                    <figure class="catalog-product__announce">
+                        <img src="#" alt="">
+                        <figcaption class="catalog-product__announce__text">Random text</figcaption>
+                    </figure>
+                    <section class="catalog-product__controls">
+                        <span class="catalog-product__controls__price">500 ₽</span>
+                        <a href="#" class="catalog-product__controls__buy-button">КУПИТЬ</a>
+                    </section>
+                </article>
+                <article class="catalog-product">
+                    <figure class="catalog-product__announce">
+                        <img src="#" alt="">
+                        <figcaption class="catalog-product__announce__text">Random text</figcaption>
+                    </figure>
+                    <section class="catalog-product__controls">
+                        <span class="catalog-product__controls__price">300 ₽</span>
+                        <a href="#" class="catalog-product__controls__buy-button">КУПИТЬ</a>
+                    </section>
+                </article>
+                <article class="catalog-product">
+                    <figure class="catalog-product__announce">
+                        <img src="#" alt="">
+                        <figcaption class="catalog-product__announce__text">Random text</figcaption>
+                    </figure>
+                    <section class="catalog-product__controls">
+                        <span class="catalog-product__controls__price">3 900 ₽</span>
+                        <a href="#" class="catalog-product__controls__buy-button">КУПИТЬ</a>
+                    </section>
+                </article>
+                <nav class="pagination">
+                    <ul class="pagination__list">
+                        <li class="pagination__list__item"><a href="#" class="pagination__list__item__link">1</a></li>
+                        <li class="pagination__list__item pagination__list__item--active"><a href="#" class="pagination__list__item__link">2</a></li>
+                        <li class="pagination__list__item"><a href="#" class="pagination__list__item__link">3</a></li>
+                        <li class="pagination__list__item"><a href="#" class="pagination__list__item__link">4</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </section>
+    </main>
+    <footer class="page-footer">
+        <div class="center-container">
+            <section class="page-footer__left">
+                <address>
+                    БАРБЕРШОП «БОРОДИНСКИЙ»
+                    АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8
+                    КАК НАС НАЙТИ?
+                    ТЕЛЕФОН: +7 (495) 666-02-66
+                </address>
+            </section>
+            <section class="page-footer__center">
+                <p class="page-footer__center__header">ДАВАЙТЕ ДРУЖИТЬ!</p>
+                <p class="page-footer__center__buttons">
+                    <a class="btn btn-vk" href=""></a>
+                    <a class="btn btn-fb" href=""></a>
+                    <a class="btn btn-instagram" href=""></a>
+                </p>
+            </section>
+            <section class="page-footer__right">
+                <p>РАЗРАБОТАНО:</p>
+                <p>
+                    <a class="btn btn-academy" href="#">Html Academy</a>
+                </p>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>
